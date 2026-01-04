@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de Documentos Digitais</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #1aa3ad;
+      color: #fff;
+      padding: 24px 16px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      margin: 6px 0 0;
+      font-size: 0.95rem;
+      opacity: 0.95;
+    }
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 0 16px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .box {
+      border: 2px solid #1aa3ad;
+      background: #eef9fa;
+      border-radius: 6px;
+      padding: 16px;
+    }
+    .box h2 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: #007b85;
+    }
+    .box p {
+      margin: 6px 0;
+      font-size: 0.95rem;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .section h3 {
+      color: #007b85;
+      margin-bottom: 10px;
+    }
+    .detail {
+      background: #f0f0f0;
+      padding: 10px 12px;
+      margin-bottom: 6px;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #1aa3ad;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .note {
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color: #666;
+    }
+    @media (max-width: 700px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Validação Documentos Digitais</h1>
+    <p>Secretaria Municipal da Saúde de Curitiba</p>
+  </header>
+
+  <div class="container">
+
+    <div class="grid">
+      <div class="box">
+        <h2>Usuário</h2>
+        <p><strong>Nome:</strong> ARTHUR ***********</p>
+        <p><strong>Nascimento:</strong> **/**/2006</p>
+        <p><strong>Mãe:</strong> ANTONIA ***********</p>
+        <p><strong>CPF:</strong> ***.***.***-**</p>
+      </div>
+
+      <div class="box">
+        <h2>Documento</h2>
+        <p><strong>Declaração de Comparecimento</strong></p>
+        <p>Gerado em: 04/01/2026 13:11</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Detalhes</h3>
+      <div class="detail">Dt. comparecimento: 04/01/2026</div>
+      <div class="detail">Horário: 06:26 às 13:11</div>
+      <div class="detail">Estabelecimento: UPA BOQUEIRÃO</div>
+      <div class="detail">Profissional: ARIANE TEÓFILO CESAR – CRM 37334/PR</div>
+
+      <a class="button" href="#">Voltar</a>
+    </div>
+
+    <div class="note">
+      ⚠️ Esta é uma página visual e orientativa. A validação oficial ocorre exclusivamente no site da Prefeitura de Curitiba.
+    </div>
+
+  </div>
+
+</body>
+</html>
